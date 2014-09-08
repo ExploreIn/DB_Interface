@@ -48,6 +48,11 @@ public interface DBInterface {
 	 * List
 	 */
 
+	public ArrayList<Float> individualResult(int chestNo);
+	/*
+	 * The function takes the chest number of each participant and returns the lap timings of the participant
+	 */
+	
 	public ArrayList<Float> getResult3();
 
 	/*
